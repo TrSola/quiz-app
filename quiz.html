@@ -9,54 +9,40 @@
 </head>
 <body>
     
-        <div class="wrap">
-          <h2 class="senior"><span class="seniorContent">高年級練習題</span></h2>
-            <div class=elementary>
-              <ul class="testFive">
-                <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/JjaPMPv">安5康社</a></li>
-                <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/oNPvwvW">5下南自然</a></li>
-                <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/wvEweJO">石5翰社會</a></li>
-              </ul>
-              <ul class="testSix">
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/QWVLpea">6下南自然</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/wvEwezN">6下康社會</a></li>
-              </ul>
+      
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a"
+                        class="answer">
+                        <label for="a" id="a_text">Question</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="b"
+                        class="answer">
+                        <label for="b" id="b_text">Question</label>
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="c"
+                        class="answer">
+                        <label for="c" id="c_text">Question</label>
+                    </li>
+                    
+                    <li>
+                        <input type="radio" name="answer" id="d"
+                        class="answer">
+                        <label for="d" id="d_text">Question</label>
+                    </li>
+                </ul>
             </div>
-            <h2>國中自然考題</h2>
-            <div class="junior">
-              <ul>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/dyqYypP">國二理化</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/qBMOWoQ">國三理化</a></L>
-              </ul>
-            </div>
-       <h2>教師檢查專用</h2>
-            <div class="teacher">
-              <ul>            
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/GRBbRbo">無限輪迴</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/NWLWgMm">檢查全對</a></li>
-              </ul>
-            </div>
-            <div class="mistake">
-                <h2>五下各科錯題</h2>
-              <ul class="mistakeFive">
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/zYJxmqa">錯題-安5國</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/RwYWaYb">錯題-安5社</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/RwYWaeb">錯題-安石5自</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/qBMdxBK">錯題-石5國</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/wvEKGYW">錯題-石5社</a></li>
-              </ul>
-                <h2>六下各科錯題</h2>
-              <ul class="mistakeSix">
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/KKxdzGq">錯題-安6國</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/qBMOZJL">錯題-安6自</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/xxawVyy">錯題-安石6社</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/qBMOZJL">錯題-石6自</a></li>
-               <li><a href="https://codepen.io/ujlylmbv-the-lessful/pen/vYzNOew">錯題-石6國</a></li>
-              </ul>
-            </div>
-    
-    
+            <button id="submit">送出</button>
         </div>
+
+
         <script src="quiz.js"></script>
  
 </body>
